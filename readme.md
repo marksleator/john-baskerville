@@ -10,3 +10,4 @@ Each week we'll build on this project as we take you through HTML and CSS. This 
 9th November 2015
 -----------------
 + [Version 2](https://marksleator.github.io/john-baskerville/version-2.html) - Added lists.
++ [Version 3](https://marksleator.github.io/john-baskerville/version-3.html) - Added lists.
