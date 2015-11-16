@@ -14,5 +14,5 @@ Each week we'll build on this project as we take you through HTML and CSS. This 
 
 16th November 2015
 -----------------
-+ [Version 4](https://marksleator.github.io/john-baskerville/version-4.html) - Added images.
++ [Version 4](https://marksleator.github.io/john-baskerville/version-4.html) - Added tables.
 + [Version 5](https://marksleator.github.io/john-baskerville/version-5.html) - Added resized images.
