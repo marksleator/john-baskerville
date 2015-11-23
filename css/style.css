@@ -13,25 +13,70 @@
     h1, h2, h3 {
                 font-weight: normal;
                 color: #c06;
+                text-align: center;
         }
 
         h1{font-size: 3.375em;}
         h2{font-size: 2.0em;}
         h3{font-size: 1.5em;}
 
+header h2 {
+        font-style: italic;
+        padding: 1em 0em;
+        }
+header h1 {padding: 1em 0em 0em 0em;}
+
 .intro {
         font-size: 1.2em;
-        padding: 1.5em 0em;
+        padding: 1em 0em 0em 0em;
         }
 
 section {padding: 1.5em 0em;}
 
+blockquote {
+    padding: 2em 0;
+    font-size: 1.2em;
+}
+
+cite{
+    font-size: 0.85em;
+    text-transform: uppercase;
+}
+
+.anchor{
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+}
 /* ------ LINKS ------*/
 
 a {
     color: #c06;
     text-decoration: none;
-    text-transform: uppercase;
     letter-spacing: 2px;
 
 }
+
+a:hover {
+    color: #800000;
+}
+
+/* ----- NAV -----*/
+
+nav {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    margin: 25px;
+    text-transform: uppercase;
+}
+
+/* -----FOOTER -----*/
+
