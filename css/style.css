@@ -127,6 +127,78 @@ nav ul li{
     margin: 25px;
     text-transform: uppercase;
 }
+/* ------------------- IMAGES -------------------- */
 
-/* -----FOOTER -----*/
+img {
+    display: block;
+    margin: 1em auto; /* This sets the margin top and bottom to 0px. The auto on the left and right will automatically calculate the space either side and split it evenly between the two margins. */
+    padding: 0;
+    max-width: 100%; /* This means that the images will resize to fit the parent container instead of just rendering at its native width and overflowing its containing box. */
+   /* border: #c06 5px solid; */
+}
+
+
+/* --------------------- FOOTER --------------------- */
+
+footer {
+    font-size: .75em;
+    line-height: 1.5em;
+    padding-bottom: 2em;
+}
+
+footer hr {margin-bottom: 3em}
+
+.contact {
+    padding-top: 2em;
+    margin: auto;
+    text-align: center}
+
+.contact a {margin: 0 1em;
+padding: 7px; }
+
+
+
+/* ----------------- MEDIA QUERIES ----------------------*/
+
+
+/*------------------ TABLET ----------------------*/
+@media (max-width: 50em) {
+    
+   body {
+    background: aqua;  
+    }
+    
+article {
+    width: 95%;
+    padding: 0.5em;
+    } 
+    
+    img {
+    display: block;
+    margin: 1em auto;
+    padding: 0;
+    max-width: 100%;
+}
+}
+
+/*----------- SMARTPHONE ----------- */
+ @media (max-width: 31em) {
+    
+   body {
+    margin: auto 0;
+    background: #BEE9C7;
+    width: 100%;
+    font-size: 110%;
+    }
+    
+article {
+    width: 90%;
+    } 
+h1 {font-size: 2.9em;}   
+    
+hgroup h2 {font-size: 1.5em;
+padding-top: 0.5em}      
+}
+nav ul li {font-size: .75em;
+        margin: 10px}
 
