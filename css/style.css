@@ -1,3 +1,17 @@
+/* ----- CSS RESET -----*/
+* {
+        padding: 0;
+        margin: 0;
+        font-size: 100%;
+        line-height: 1em;
+    }
+
+/*----- CSS STYLING -----*/
+
+    p {line-height: 2em;
+        margin-bottom: 1em;
+    }
+
     body {
         width:75%;
         max-width: 650px;
@@ -12,8 +26,9 @@
         
     h1, h2, h3 {
                 font-weight: normal;
-                color: #c06;
+                color: #b20;
                 text-align: center;
+                padding: 1em;
         }
 
         h1{font-size: 3.375em;}
@@ -24,7 +39,7 @@ header h2 {
         font-style: italic;
         padding: 1em 0em;
         }
-header h1 {padding: 1em 0em 0em 0em;}
+header h1 {padding: 1em 0em 0.5em 0em;}
 
 .intro {
         font-size: 1.2em;
@@ -36,6 +51,7 @@ section {padding: 1.5em 0em;}
 blockquote {
     padding: 2em 0;
     font-size: 1.2em;
+    line-height: 1.5em;
 }
 
 cite{
@@ -48,17 +64,51 @@ cite{
     text-transform: uppercase;
     letter-spacing: 0.01em;
 }
+
+table{
+    margin: auto;
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    border-color: black;
+   }
+
+caption {
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+}
+
+table.head, th{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background: #333;
+}
+
+th, td {padding: 0.5em;}
+
+table, td {background: #fff;
+border: 1px solid #000;}
+
 /* ------ LINKS ------*/
 
 a {
-    color: #c06;
+    color: #b20;
     text-decoration: none;
     letter-spacing: 2px;
-
+    line-height: 2em;
 }
 
 a:hover {
     color: #800000;
+}
+
+img {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 0 2em 0;
 }
 
 /* ----- NAV -----*/
