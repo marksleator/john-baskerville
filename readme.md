@@ -21,3 +21,8 @@ Each week we'll build on this project as we take you through HTML and CSS. This 
 -----------------
 + [Version 6](https://marksleator.github.io/john-baskerville/version-6.html) - Added tables.
 + [Version 7](https://marksleator.github.io/john-baskerville/version-7.html) - Added styles.
+
+30th November 2015
+-----------------
++ [Version 8](https://marksleator.github.io/john-baskerville/version-8.html) - Added CSS Reset and styles.
++ [Version 9](https://marksleator.github.io/john-baskerville/version-9.html) - Added styles.
