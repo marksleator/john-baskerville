@@ -25,4 +25,4 @@ Each week we'll build on this project as we take you through HTML and CSS. This 
 30th November 2015
 -----------------
 + [Version 8](https://marksleator.github.io/john-baskerville/version-8.html) - Added Media Queries.
-+ [Version 9](https://marksleator.github.io/john-baskerville/version-9.html) - 
++ [Exercise](https://marksleator.github.io/john-baskerville/baskerville-exercise.html) - 
